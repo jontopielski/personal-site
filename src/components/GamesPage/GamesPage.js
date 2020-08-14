@@ -20,7 +20,56 @@ function GamesPage() {
         href="https://jontopielski.itch.io/">here</a>
         .
       </p>
+
       <br />
+
+      <Fieldset label="Rewindware">
+        <List inline={true} fullWidth>
+          <Divider />
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">August 2020</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">7 days</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Designer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Programmer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Artist</ListItem>
+
+          <Bar />
+          <Divider />
+        </List>
+        <br />
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Featured on indie game coverage outlet Warp Door</ListItem>
+        </List>
+        <br />
+        <br />
+        <iframe frameborder="0" src="https://itch.io/embed/723858?border_width=2&amp;bg_color=c7cac9&amp;link_color=0d198c" width="554" height="169"><a href="https://jontopielski.itch.io/rewindware">Rewindware by Jon Topielski, mafgar</a></iframe>
+      </Fieldset>
+
+      <br />
+
       <Fieldset label="A Midclubber Night's Dream">
         <List inline={true} fullWidth>
           <Divider />
