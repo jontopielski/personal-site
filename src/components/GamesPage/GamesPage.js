@@ -23,6 +23,123 @@ function GamesPage() {
 
       <br />
 
+      <Fieldset label="Spinny Discs">
+        <List inline={true} fullWidth>
+          <Divider />
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Oct 2020</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">14 days</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Designer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Programmer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Artist</ListItem>
+          <Bar />
+          <Divider />
+        </List>
+        <br />
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-users" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Mafgar (sound effects, music)</ListItem>
+        </List>
+        <br />
+        <br />
+        <iframe frameborder="0" src="https://itch.io/embed/800654?border_width=2&amp;bg_color=c7cac9&amp;link_color=0d198c" width="552" height="167"><a href="https://jontopielski.itch.io/spinny-discs">Spinny Discs by Jon Topielski</a></iframe>
+      </Fieldset>
+
+      <br />
+
+      <br />
+
+      <Fieldset label="Keyspace">
+        <List inline={true} fullWidth>
+          <Divider />
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Oct 2020</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">72 hours</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Designer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Programmer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Artist</ListItem>
+          <Bar />
+          <Divider />
+        </List>
+        <br />
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-trophy" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">101st place overall out of 2,406 entries in Ludum Dare #47</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-users" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Mafgar (sound effects, music)</ListItem>
+        </List>
+        <br />
+        <br />
+        <iframe frameborder="0" src="https://itch.io/embed/778476?border_width=2&amp;bg_color=c7cac9&amp;link_color=0d198c" width="552" height="167"><a href="https://jontopielski.itch.io/keyspace">Keyspace by Jon Topielski</a></iframe>
+      </Fieldset>
+
+      <br />
+
+      <br />
+
       <Fieldset label="Rewindware">
         <List inline={true} fullWidth>
           <Divider />
@@ -56,12 +173,32 @@ function GamesPage() {
           <Divider />
         </List>
         <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-trophy" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">6th place in fun out of 1,838 entries in Brackey's Game Jam 2020.2</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-trophy" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">50th place overall out of 1,838 entries</ListItem>
+        </List>
         <br />
         <List inline={true} fullWidth>
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Warp Door</ListItem>
+          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-music" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Mafgar (sound effects, music)</ListItem>
         </List>
         <br />
         <br />
@@ -110,6 +247,13 @@ function GamesPage() {
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
           <ListItem size="sm">Accepted into Indiepocalypse Zine Issue #7</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-users" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Beardy (music), Mafgar (sound effects), and Thoof (art)</ListItem>
         </List>
         <br />
         <br />
@@ -164,7 +308,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Warp Door</ListItem>
+          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
@@ -172,6 +316,13 @@ function GamesPage() {
             <i style={{width: "21px"}} class="fa fa-shopping-bag" aria-hidden="true"></i>
           </ListItem>
           <ListItem size="sm">Included in the Itch.io Bundle for Racial Justice and Equality</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-users" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Mafgar (sound effects, music) and Thoof (art)</ListItem>
         </List>
         <br />
         <br />
@@ -219,7 +370,14 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Recommended by indie game coverage outlet Game Curator</ListItem>
+          <ListItem size="sm">Recommended by indie game site Game Curator</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-users" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Mafgar (sound effects, music) and Datz (art)</ListItem>
         </List>
         <br />
         <br />
@@ -265,21 +423,21 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Warp Door</ListItem>
+          <ListItem size="sm">Featured on indie game news site Warp Door</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Game Curator</ListItem>
+          <ListItem size="sm">Featured on indie game news site Game Curator</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Indie Games Plus</ListItem>
+          <ListItem size="sm">Featured on indie game news site Indie Games Plus</ListItem>
         </List>
         <br />
         <br />
@@ -333,7 +491,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Warp Door</ListItem>
+          <ListItem size="sm">Featured on indie game news site Warp Door</ListItem>
         </List>
 
         <br />
@@ -341,7 +499,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game coverage outlet Game Curator</ListItem>
+          <ListItem size="sm">Featured on indie game news site Game Curator</ListItem>
         </List>
         <br />
         <br />
