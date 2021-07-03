@@ -23,6 +23,56 @@ function GamesPage() {
 
       <br />
 
+      <Fieldset label="Cats on Mars">
+        <List inline={true} fullWidth>
+          <Divider />
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Dec 2020</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">28 days</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Designer</ListItem>
+          <Bar />
+          <ListItem size="sm">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Programmer</ListItem>
+          <Bar />
+          <Divider />
+        </List>
+        <br />
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Featured on Alpha Beta Gamer, Warp Door, Bontegames, and Curious Arcade</ListItem>
+        </List>
+        <br />
+        <List inline={true} fullWidth>
+          <ListItem size="sm">
+            <i style={{width: "21px"}} class="fa fa-users" aria-hidden="true"></i>
+          </ListItem>
+          <ListItem size="sm">Worked with Mafgar (sound effects, music) and Thoof (art)</ListItem>
+        </List>
+        <br />
+        <br />
+        <iframe frameborder="0" src="https://itch.io/embed/843633?border_width=2&amp;bg_color=c7cac9&amp;link_color=0d198c" width="552" height="167"><a href="https://jontopielski.itch.io/cats-on-mars">Cats on Mars by Jon Topielski, mafgar, Thoof</a></iframe>
+      </Fieldset>
+
+      <br />
+
+      <br />
+
       <Fieldset label="Spinny Discs">
         <List inline={true} fullWidth>
           <Divider />
@@ -60,7 +110,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+          <ListItem size="sm">Featured on Warp Door</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
@@ -122,7 +172,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+          <ListItem size="sm">Featured on Warp Door</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
@@ -191,7 +241,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+          <ListItem size="sm">Featured on Warp Door</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
@@ -308,7 +358,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game site Warp Door</ListItem>
+          <ListItem size="sm">Featured on Warp Door</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
@@ -370,7 +420,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Recommended by indie game site Game Curator</ListItem>
+          <ListItem size="sm">Recommended by  Game Curator</ListItem>
         </List>
         <br />
         <List inline={true} fullWidth>
@@ -423,21 +473,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game news site Warp Door</ListItem>
-        </List>
-        <br />
-        <List inline={true} fullWidth>
-          <ListItem size="sm">
-            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
-          </ListItem>
-          <ListItem size="sm">Featured on indie game news site Game Curator</ListItem>
-        </List>
-        <br />
-        <List inline={true} fullWidth>
-          <ListItem size="sm">
-            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
-          </ListItem>
-          <ListItem size="sm">Featured on indie game news site Indie Games Plus</ListItem>
+          <ListItem size="sm">Featured on Warp Door, Game Curator, and Indie Games Plus</ListItem>
         </List>
         <br />
         <br />
@@ -484,22 +520,7 @@ function GamesPage() {
           <ListItem size="sm">
             <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
           </ListItem>
-          <ListItem size="sm">Featured on indie game blog Bonte Games by Bart Bonte</ListItem>
-        </List>
-        <br />
-        <List inline={true} fullWidth>
-          <ListItem size="sm">
-            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
-          </ListItem>
-          <ListItem size="sm">Featured on indie game news site Warp Door</ListItem>
-        </List>
-
-        <br />
-        <List inline={true} fullWidth>
-          <ListItem size="sm">
-            <i style={{width: "21px"}} class="fa fa-newspaper-o" aria-hidden="true"></i>
-          </ListItem>
-          <ListItem size="sm">Featured on indie game news site Game Curator</ListItem>
+          <ListItem size="sm">Featured on Warp Door, Game Curator, and Bontegames</ListItem>
         </List>
         <br />
         <br />

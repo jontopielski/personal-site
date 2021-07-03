@@ -6,10 +6,12 @@ import ArtPage from '../ArtPage/ArtPage';
 import MusicPage from '../MusicPage/MusicPage';
 import RandomPage from '../RandomPage/RandomPage';
 import ContactPage from '../ContactPage/ContactPage';
+import UpdatedGamesPage from '../UpdatedGamesPage/UpdatedGamesPage'
 
 import './MenuWindow.css';
 
 const PAGE_ABOUT = "PAGE_ABOUT"
+const PAGE_UPDATED_GAMES = "PAGE_UPDATED_GAMES"
 const PAGE_GAMES = "PAGE_GAMES"
 const PAGE_ART = "PAGE_ART"
 const PAGE_MUSIC = "PAGE_MUSIC"
@@ -20,7 +22,7 @@ class MenuWindow extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: PAGE_ABOUT
+      currentPage: PAGE_UPDATED_GAMES
     }
   }
 
@@ -45,6 +47,8 @@ class MenuWindow extends React.Component {
       nextPage = <RandomPage />;
     } else if (this.state.currentPage == PAGE_CONTACT) {
       nextPage = <ContactPage />;
+    } else if (this.state.currentPage == PAGE_UPDATED_GAMES) {
+      nextPage = <UpdatedGamesPage />;
     }
     return (
       <div>
@@ -56,8 +60,8 @@ class MenuWindow extends React.Component {
               justifyContent: 'space-between',
             }}
           >
-            <span>Welcome</span>
-            <Button style={{ marginRight: '-6px', marginTop: '1px' }} size={'sm'} square>
+            <span style={{ marginLeft: '4px'}}>Jon Topielski's Webpage!</span>
+            <Button square onClick={() => this.props.onCloseClicked()}>
               <span style={{ fontWeight: 'bold', transform: 'translateY(-1px)' }}>x</span>
             </Button>
           </WindowHeader>
@@ -65,12 +69,10 @@ class MenuWindow extends React.Component {
             <Button variant="menu" size="md" onClick={() => this.handleButtonClick(PAGE_ABOUT)}>
               About
             </Button>
-            <Button variant="menu" size="md" onClick={() => this.handleButtonClick(PAGE_GAMES)}>
+            <Button variant="menu" size="md" onClick={() => this.handleButtonClick(PAGE_UPDATED_GAMES)}>
               Games
             </Button>
-            <Button variant="menu" size="md" onClick={() => this.handleButtonClick(PAGE_CONTACT)}>
-              Contact
-            </Button>
+
           </Toolbar>
           <WindowContent>
             {nextPage}
